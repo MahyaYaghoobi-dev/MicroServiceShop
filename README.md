@@ -1,31 +1,35 @@
-# MicroServiceShop 
+# MicroServiceShop
 
-فروشگاه میکروسرویسی با .NET 10 و Angular 20
+A learning project for microservices architecture with .NET and Angular.
 
 ---
 
-## تکنولوژی‌ها
+## What's inside?
 
 - **Backend**: .NET 10, Clean Architecture, CQRS, gRPC, RabbitMQ
 - **Frontend**: Angular 20
-- **Database**: MongoDB, PostgreSQL, Redis
-- **Authentication**: Identity Server 4, JWT
+- **Data**: MongoDB, PostgreSQL, Redis
+- **Auth**: Identity Server 4, JWT
 - **Logging**: Serilog, Elasticsearch, Kibana
-- **DevOps**: Docker, Kubernetes, Helm Charts
-- **Service Mesh**: Istio
+- **Deployment**: Docker, Kubernetes, Helm
 
 ---
 
-## سرویس‌ها
+## Services
 
 - Catalog
-- Basket
+- Basket  
 - Discount
 - Ordering
 
 ---
 
-## شروع سریع
+## Status
 
-```bash
-docker-compose up -d
+🚧 Work in progress — building step by step.
+
+---
+
+## Author
+
+Mahya Yaghoobi
