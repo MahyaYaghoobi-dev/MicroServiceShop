@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "/m18DsxgDFY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mahya\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.0-rc.1.25451.107\\microsoft.aspnetcore.openapi.10.0.0-rc.1.25451.107.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\swashbuckle.aspnetcore\\10.2.1\\swashbuckle.aspnetcore.10.2.1.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.2.1\\swashbuckle.aspnetcore.swagger.10.2.1.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.2.1\\swashbuckle.aspnetcore.swaggergen.10.2.1.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.2.1\\swashbuckle.aspnetcore.swaggerui.10.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

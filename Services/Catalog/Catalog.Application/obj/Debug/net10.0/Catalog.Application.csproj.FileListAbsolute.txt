@@ -1,0 +1,16 @@
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\bin\Debug\net10.0\Catalog.Application.deps.json
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\bin\Debug\net10.0\Catalog.Application.dll
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\bin\Debug\net10.0\Catalog.Application.pdb
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\bin\Debug\net10.0\Catalog.Core.dll
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\bin\Debug\net10.0\Catalog.Core.pdb
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog.Application.csproj.AssemblyReference.cache
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog.Application.AssemblyInfoInputs.cache
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog.Application.AssemblyInfo.cs
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog.Application.csproj.CoreCompileInputs.cache
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog.Application.sourcelink.json
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog..75771DFE.Up2Date
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog.Application.dll
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\obj\Debug\net10.0\refint\Catalog.Application.dll
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\obj\Debug\net10.0\Catalog.Application.pdb
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Application\obj\Debug\net10.0\ref\Catalog.Application.dll
