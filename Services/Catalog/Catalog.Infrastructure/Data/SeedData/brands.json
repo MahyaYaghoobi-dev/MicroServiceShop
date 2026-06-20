@@ -1,0 +1,20 @@
+﻿[
+  {
+    "Id": "507f1f77bcf86cd799439011",
+    "Name": "Apple",
+    "CreatedAt": "2026-06-19T10:00:00Z",
+    "UpdatedAt": "2026-06-19T10:00:00Z"
+  },
+  {
+    "Id": "507f1f77bcf86cd799439012",
+    "Name": "Samsung",
+    "CreatedAt": "2026-06-19T10:00:00Z",
+    "UpdatedAt": "2026-06-19T10:00:00Z"
+  },
+  {
+    "Id": "507f1f77bcf86cd799439013",
+    "Name": "Sony",
+    "CreatedAt": "2026-06-19T10:00:00Z",
+    "UpdatedAt": "2026-06-19T10:00:00Z"
+  }
+]
