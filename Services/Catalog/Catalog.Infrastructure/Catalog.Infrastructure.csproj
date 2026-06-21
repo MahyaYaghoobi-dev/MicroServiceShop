@@ -10,4 +10,10 @@
       <ProjectReference Include="..\Catalog.Core\Catalog.Core.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+        <PackageReference Include="MongoDB.Driver" Version="3.9.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.0" />
+    </ItemGroup>
+
 </Project>

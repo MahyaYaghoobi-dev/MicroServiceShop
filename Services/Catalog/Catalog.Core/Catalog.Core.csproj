@@ -3,12 +3,11 @@
     <PropertyGroup>
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>disable</Nullable>
+        <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
 <!--mongodb packages-->
-      <PackageReference Include="AspNetCore.HealthChecks.MongoDb" Version="9.0.0" />
       <PackageReference Include="MongoDB.Driver" Version="3.9.0" />
     </ItemGroup>
 

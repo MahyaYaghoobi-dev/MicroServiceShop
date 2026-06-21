@@ -1,18 +1,39 @@
+using Catalog.Core.Repositories;
+using Catalog.Core.Settings;
+using Catalog.Infrastructure.Data;
+using Catalog.Infrastructure.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
-
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
 
 //swagger config
 builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new() { Title = "Catalog.Api", Description = "catalog api", Version = "v1" }));
-builder.Services.AddEndpointsApiExplorer();
 
+
+//mongodb config
+builder.Services.Configure<DatabaseSettings>(
+    builder.Configuration.GetSection(nameof(DatabaseSettings)));
+
+builder.Services.AddSingleton<ICatalogContext, CatalogContext>();
+
+//repositories DI
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IBrandRepository, BrandRepository>();
+builder.Services.AddScoped<ITypeRepository, TypeRepository>();
 
 
 var app = builder.Build();
+
+//seed data
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<ICatalogContext>();
+    CatalogContextSeed.SeedData(context.Products, context.Brands, context.Types);
+}
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -45,6 +66,9 @@ app.MapGet("/weatherforecast", () =>
         return forecast;
     })
     .WithName("GetWeatherForecast");
+
+
+app.MapControllers();
 
 app.Run();
 
