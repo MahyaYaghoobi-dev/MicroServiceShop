@@ -1,9 +1,7 @@
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Infrastructure\bin\Debug\net10.0\Catalog.Infrastructure.deps.json
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Infrastructure\bin\Debug\net10.0\Catalog.Infrastructure.dll
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Infrastructure\bin\Debug\net10.0\Catalog.Infrastructure.pdb
-C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Infrastructure\bin\Debug\net10.0\Catalog.Application.dll
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Infrastructure\bin\Debug\net10.0\Catalog.Core.dll
-C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Infrastructure\bin\Debug\net10.0\Catalog.Application.pdb
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Infrastructure\bin\Debug\net10.0\Catalog.Core.pdb
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Infrastructure\obj\Debug\net10.0\Catalog.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Infrastructure\obj\Debug\net10.0\Catalog.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig

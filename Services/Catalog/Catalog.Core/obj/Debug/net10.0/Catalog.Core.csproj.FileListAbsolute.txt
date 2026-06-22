@@ -10,3 +10,4 @@ C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Core\obj\Debug\net10.0\refint\Catalog.Core.dll
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Core\obj\Debug\net10.0\Catalog.Core.pdb
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Core\obj\Debug\net10.0\ref\Catalog.Core.dll
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop_alichavoshi\Services\Catalog\Catalog.Core\obj\Debug\net10.0\Catalog.Core.csproj.AssemblyReference.cache

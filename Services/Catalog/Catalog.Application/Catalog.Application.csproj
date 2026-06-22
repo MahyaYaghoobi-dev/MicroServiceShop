@@ -6,4 +6,18 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Features\Commands\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Mapster" Version="10.0.8" />
+      <PackageReference Include="Mapster.DependencyInjection" Version="10.0.8" />
+      <PackageReference Include="MediatR" Version="14.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Catalog.Core\Catalog.Core.csproj" />
+    </ItemGroup>
+
 </Project>

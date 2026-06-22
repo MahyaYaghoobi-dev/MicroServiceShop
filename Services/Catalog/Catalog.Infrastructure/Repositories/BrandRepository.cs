@@ -7,8 +7,8 @@ namespace Catalog.Infrastructure.Repositories;
 
 public class BrandRepository(ICatalogContext context) : IBrandRepository
 {
-    public async Task<IEnumerable<ProductBrand>> GetAllProductBrandsAsync()
+    public async Task<IEnumerable<ProductBrand>> GetAllProductBrandsAsync(CancellationToken cancellationToken)
     {
-        return  await context.Brands.Find(_=>true).ToListAsync();
+        return  await context.Brands.Find(x=>true).ToListAsync(cancellationToken);
     }
 }

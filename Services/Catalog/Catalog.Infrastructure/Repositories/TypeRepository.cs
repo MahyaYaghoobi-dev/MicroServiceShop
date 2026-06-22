@@ -7,8 +7,8 @@ namespace Catalog.Infrastructure.Repositories;
 
 public class TypeRepository(ICatalogContext context) : ITypeRepository
 {
-    public async Task<IEnumerable<ProductType>> GetAllProductTypesAsync()
+    public async Task<IEnumerable<ProductType>> GetAllProductTypesAsync(CancellationToken cancellationToken)
     {
-        return await context.Types.Find(_ => true).ToListAsync();
+        return await context.Types.Find(x => true).ToListAsync(cancellationToken:cancellationToken);
     }
 }

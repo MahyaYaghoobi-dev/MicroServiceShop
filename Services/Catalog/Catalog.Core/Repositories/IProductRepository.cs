@@ -4,15 +4,15 @@ namespace Catalog.Core.Repositories;
 
 public interface IProductRepository
 {
-    Task<IEnumerable<Entities.Product>> GetAllProductsAsync();
-    Task<Product?> GetProductByIdAsync(string productId);
-    Task<IEnumerable<Product>> GetProductsByNameAsync(string productName);
-    Task<IEnumerable<Product>> GetProductsByBrandIdAsync(string brandId);
-    Task<IEnumerable<Product>> GetProductsByTypeIdAsync(string typeId);
-    Task<IEnumerable<Product>> GetProductsByBrandNameAsync(string brandName);
-    Task<IEnumerable<Product>> GetProductsByTypeNameAsync(string typeName);
+    Task<IEnumerable<Entities.Product>> GetAllProductsAsync(CancellationToken cancellationToken);
+    Task<Product?> GetProductByIdAsync(string productId, CancellationToken cancellationToken);
+    Task<IEnumerable<Product>> GetProductsByNameAsync(string productName, CancellationToken cancellationToken);
+    Task<IEnumerable<Product>> GetProductsByBrandIdAsync(string brandId,CancellationToken cancellationToken);
+    Task<IEnumerable<Product>> GetProductsByTypeIdAsync(string typeId,CancellationToken cancellationToken);
+    Task<IEnumerable<Product>> GetProductsByBrandNameAsync(string brandName,CancellationToken cancellationToken);
+    Task<IEnumerable<Product>> GetProductsByTypeNameAsync(string typeName,CancellationToken cancellationToken);
 
-    Task<bool> UpdateProductAsync(Product product);
-    Task<bool> DeleteProductAsync(string productId);
-    Task<Product?> CreateProductAsync(Product product);
+    Task<bool> UpdateProductAsync(Product product,CancellationToken cancellationToken);
+    Task<bool> DeleteProductAsync(string productId,CancellationToken cancellationToken);
+    Task<Product?> CreateProductAsync(Product product, CancellationToken cancellationToken);
 }
