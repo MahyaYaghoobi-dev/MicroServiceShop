@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zKVg4gmysdc=",
+  "dgSpecHash": "QRZQ7kRcuuQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mahya\\.nuget\\packages\\asp.versioning.abstractions\\10.0.0\\asp.versioning.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\asp.versioning.http\\10.0.0\\asp.versioning.http.10.0.0.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\asp.versioning.mvc\\10.0.0\\asp.versioning.mvc.10.0.0.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\10.0.0\\asp.versioning.mvc.apiexplorer.10.0.0.nupkg.sha512",
     "C:\\Users\\mahya\\.nuget\\packages\\aspnetcore.healthchecks.mongodb\\9.0.0\\aspnetcore.healthchecks.mongodb.9.0.0.nupkg.sha512",
     "C:\\Users\\mahya\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\mahya\\.nuget\\packages\\mapster\\10.0.8\\mapster.10.0.8.nupkg.sha512",

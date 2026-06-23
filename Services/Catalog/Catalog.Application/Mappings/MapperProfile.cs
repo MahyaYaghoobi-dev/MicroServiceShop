@@ -1,4 +1,6 @@
 ﻿using Catalog.Application.DTOs;
+using Catalog.Application.Features.Commands.CreateProduct;
+using Catalog.Application.Features.Commands.UpdateProduct;
 using Catalog.Application.Features.Queries.GetAllProductBrands;
 using Catalog.Application.Features.Queries.GetAllProducts;
 using Catalog.Application.Features.Queries.GetAllProductTypes;
@@ -19,6 +21,9 @@ public class MapperProfile:IRegister
         
         config.NewConfig<ProductBrand, BrandDto>();
         config.NewConfig<ProductType, TypeDto>();
+
+        config.NewConfig<CreateProductCommand, Product>();
+        config.NewConfig<UpdateProductCommand, Product>();
 
     }
 }
