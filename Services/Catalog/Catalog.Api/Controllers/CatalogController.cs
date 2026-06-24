@@ -1,4 +1,5 @@
-﻿using Catalog.Application.DTOs;
+﻿using Catalog.Api.Helpers;
+using Catalog.Application.DTOs;
 using Catalog.Application.Features.Commands.CreateProduct;
 using Catalog.Application.Features.Commands.DeleteProduct;
 using Catalog.Application.Features.Commands.UpdateProduct;
@@ -19,91 +20,76 @@ public class CatalogController(IMediator mediator) : ApiController
     // ============ Products ============
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<ProductDto>>> GetAllProducts(CancellationToken cancellationToken)
+    public async Task<IActionResult> GetAllProducts(CancellationToken cancellationToken)
     {
         var result = await mediator.Send(new GetAllProductsQuery(), cancellationToken);
-        return Ok(result);
+        return result.ToActionResult();
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<ProductDto>> GetProductById(string id, CancellationToken cancellationToken)
+    public async Task<IActionResult> GetProductById(string id, CancellationToken cancellationToken)
     {
         var result = await mediator.Send(new GetProductByIdQuery(id), cancellationToken);
-        if (result is null)
-            return NotFound($"Product with id '{id}' not found.");
-
-        return Ok(result);
+        return result.ToActionResult();
     }
 
-    [HttpGet("product/{productName}")]
-    public async Task<ActionResult<IEnumerable<ProductDto>>> GetProductsByName(string productName, CancellationToken cancellationToken)
+    [HttpGet("name/{productName}")]
+    public async Task<IActionResult> GetProductsByName(string productName, CancellationToken cancellationToken)
     {
         var result = await mediator.Send(new GetProductsByNameQuery(productName), cancellationToken);
-        return Ok(result);
+        return result.ToActionResult();
     }
 
     [HttpGet("brand/{brandId}")]
-    public async Task<ActionResult<IEnumerable<ProductDto>>> GetProductsByBrandId(string brandId, CancellationToken cancellationToken)
+    public async Task<IActionResult> GetProductsByBrandId(string brandId, CancellationToken cancellationToken)
     {
         var result = await mediator.Send(new GetProductsByBrandIdQuery(brandId), cancellationToken);
-        return Ok(result);
+        return result.ToActionResult();
     }
 
     [HttpGet("type/{typeId}")]
-    public async Task<ActionResult<IEnumerable<ProductDto>>> GetProductsByTypeId(string typeId, CancellationToken cancellationToken)
+    public async Task<IActionResult> GetProductsByTypeId(string typeId, CancellationToken cancellationToken)
     {
         var result = await mediator.Send(new GetProductsByTypeIdQuery(typeId), cancellationToken);
-        return Ok(result);
+        return result.ToActionResult();
     }
 
     [HttpPost]
-    public async Task<ActionResult<ProductDto>> CreateProduct([FromBody] CreateProductCommand command, CancellationToken cancellationToken)
+    public async Task<IActionResult> CreateProduct([FromBody] CreateProductCommand command, CancellationToken cancellationToken)
     {
         var result = await mediator.Send(command, cancellationToken);
-        if (result is null)
-            return BadRequest("Failed to create product.");
-
-        return CreatedAtAction(nameof(GetProductById), new { id = result.Id }, result);
+        return result.ToActionResult();
     }
 
-    [HttpPut("{id}")]
-    public async Task<IActionResult> UpdateProduct(string id, [FromBody] UpdateProductCommand command, CancellationToken cancellationToken)
+    [HttpPut]
+    public async Task<IActionResult> UpdateProduct( [FromBody] UpdateProductCommand command, CancellationToken cancellationToken)
     {
-        if (id != command.Id)
-            return BadRequest("Product ID mismatch.");
-
         var result = await mediator.Send(command, cancellationToken);
-        if (!result)
-            return BadRequest("Failed to update product.");
-
-        return NoContent();
+         return result.ToActionResult();
     }
 
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteProduct(string id, CancellationToken cancellationToken)
     {
         var result = await mediator.Send(new DeleteProductCommand(id), cancellationToken);
-        if (!result)
-            return NotFound($"Product with id '{id}' not found.");
-
-        return NoContent();
+        return result.ToActionResult();
     }
 
     // ============ Brands ============
 
     [HttpGet("brands")]
-    public async Task<ActionResult<IEnumerable<BrandDto>>> GetAllBrands(CancellationToken cancellationToken)
+    public async Task<IActionResult> GetAllBrands(CancellationToken cancellationToken)
     {
         var result = await mediator.Send(new GetAllProductBrandsQuery(), cancellationToken);
-        return Ok(result);
+        return result.ToActionResult();
     }
 
     // ============ Types ============
 
     [HttpGet("types")]
-    public async Task<ActionResult<IEnumerable<TypeDto>>> GetAllTypes(CancellationToken cancellationToken)
+    public async Task<IActionResult> GetAllTypes(CancellationToken cancellationToken)
     {
         var result = await mediator.Send(new GetAllProductTypesQuery(), cancellationToken);
-        return Ok(result);
+        return result.ToActionResult();
     }
 }
