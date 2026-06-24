@@ -1,3 +1,5 @@
+using System;
+using System.Linq;
 using Asp.Versioning;
 using Catalog.Application.Features.Queries.GetAllProducts;
 using Catalog.Application.Mappings;
@@ -7,6 +9,9 @@ using Catalog.Infrastructure.Data;
 using Catalog.Infrastructure.Repositories;
 using Mapster;
 using MapsterMapper;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -64,11 +69,11 @@ builder.Services.AddApiVersioning(options =>
 var app = builder.Build();
 
 //seed data
-// using (var scope = app.Services.CreateScope())
-// {
-//     var context = scope.ServiceProvider.GetRequiredService<ICatalogContext>();
-//     CatalogContextSeed.SeedData(context.Products, context.Brands, context.Types);
-// }
+ using (var scope = app.Services.CreateScope())
+ {
+     var context = scope.ServiceProvider.GetRequiredService<ICatalogContext>();
+     CatalogContextSeed.SeedData(context.Products, context.Brands, context.Types);
+ }
 
 
 

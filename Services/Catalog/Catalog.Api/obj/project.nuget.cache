@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QRZQ7kRcuuQ=",
+  "dgSpecHash": "IzR2aZ4rZ1M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+  "projectFilePath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahya\\.nuget\\packages\\asp.versioning.abstractions\\10.0.0\\asp.versioning.abstractions.10.0.0.nupkg.sha512",
     "C:\\Users\\mahya\\.nuget\\packages\\asp.versioning.http\\10.0.0\\asp.versioning.http.10.0.0.nupkg.sha512",

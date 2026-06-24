@@ -1,4 +1,4 @@
-﻿namespace Catalog.Application.Shared.Result;
+﻿namespace Catalog.Application.Shared.Results;
 
 public class Result<T>
 {

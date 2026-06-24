@@ -1,4 +1,5 @@
 ﻿using Catalog.Application.DTOs;
+using Catalog.Application.Shared.Results;
 using Catalog.Core.Entities;
 using MediatR;
 
@@ -10,9 +11,9 @@ public class CreateProductCommand(
     string description,
     string imageFile,
     decimal price,
-    ProductBrand brand,
-    ProductType type)
-    : IRequest<ProductDto>
+    string brandId,
+    string typeId)
+    : IRequest<Result<ProductDto>>
 {
     public string Name { get; set; } = name;
     public string Summary { get; set; } = summary;
@@ -21,6 +22,6 @@ public class CreateProductCommand(
     public decimal Price { get; set; } = price;
 
 
-    public ProductBrand Brand { get; set; } = brand;
-    public ProductType Type { get; set; } = type;
+    public string BrandId { get; set; } = brandId;
+    public string TypeId { get; set; } = typeId;
 }

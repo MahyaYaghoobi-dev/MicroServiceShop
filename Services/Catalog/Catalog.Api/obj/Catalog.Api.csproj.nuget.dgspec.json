@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {}
+    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {
+    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+        "projectUniqueName": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
         "projectName": "Catalog.Api",
-        "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
+        "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Api\\Catalog.Api.csproj",
         "packagesPath": "C:\\Users\\mahya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Api\\obj\\",
+        "outputPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mahya\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,14 +26,14 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
-                "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
+              "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
+                "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj"
               },
-              "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
-                "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
+              "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+                "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
               },
-              "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj"
+              "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj"
               }
             }
           }
@@ -512,14 +512,14 @@
         }
       }
     },
-    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
+    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
+        "projectUniqueName": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
         "projectName": "Catalog.Application",
-        "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
+        "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
         "packagesPath": "C:\\Users\\mahya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Application\\obj\\",
+        "outputPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mahya\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -534,8 +534,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
-                "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
+              "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+                "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
               }
             }
           }
@@ -862,14 +862,14 @@
         }
       }
     },
-    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
+        "projectUniqueName": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
         "projectName": "Catalog.Core",
-        "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
+        "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
         "packagesPath": "C:\\Users\\mahya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\obj\\",
+        "outputPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mahya\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1200,14 +1200,14 @@
         }
       }
     },
-    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj": {
+    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
         "projectName": "Catalog.Infrastructure",
-        "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Infrastructure\\Catalog.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\mahya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mahya\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1222,8 +1222,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
-                "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
+              "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+                "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
               }
             }
           }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {}
+    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
+        "projectUniqueName": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
         "projectName": "Catalog.Core",
-        "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
+        "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
         "packagesPath": "C:\\Users\\mahya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\obj\\",
+        "outputPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mahya\\AppData\\Roaming\\NuGet\\NuGet.Config"

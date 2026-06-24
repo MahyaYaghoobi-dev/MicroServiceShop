@@ -1,4 +1,5 @@
-﻿using Catalog.Core.Entities;
+﻿using Catalog.Application.Shared.Results;
+using Catalog.Core.Entities;
 using MediatR;
 
 namespace Catalog.Application.Features.Commands.UpdateProduct;
@@ -10,8 +11,8 @@ public class UpdateProductCommand(
     string description,
     string imageFile,
     decimal price,
-    ProductBrand brand,
-    ProductType type) : IRequest<bool>
+    string brandId,
+    string typeId) : IRequest<Result<bool>>
 {
     public string Id { get; set; } = id;
     public string Name { get; set; } = name;
@@ -21,6 +22,6 @@ public class UpdateProductCommand(
     public decimal Price { get; set; } = price;
 
 
-    public ProductBrand Brand { get; set; } = brand;
-    public ProductType Type { get; set; } = type;
+    public string BrandId { get; set; } = brandId;
+    public string TypeId { get; set; } = typeId;
 }

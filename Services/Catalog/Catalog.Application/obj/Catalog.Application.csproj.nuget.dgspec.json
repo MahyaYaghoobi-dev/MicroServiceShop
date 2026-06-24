@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {}
+    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
+    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
+        "projectUniqueName": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
         "projectName": "Catalog.Application",
-        "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
+        "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Application\\Catalog.Application.csproj",
         "packagesPath": "C:\\Users\\mahya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Application\\obj\\",
+        "outputPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mahya\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
-                "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
+              "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+                "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj"
               }
             }
           }
@@ -354,14 +354,14 @@
         }
       }
     },
-    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
+    "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
+        "projectUniqueName": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
         "projectName": "Catalog.Core",
-        "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
+        "projectPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\Catalog.Core.csproj",
         "packagesPath": "C:\\Users\\mahya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop_alichavoshi\\Services\\Catalog\\Catalog.Core\\obj\\",
+        "outputPath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Catalog\\Catalog.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mahya\\AppData\\Roaming\\NuGet\\NuGet.Config"
