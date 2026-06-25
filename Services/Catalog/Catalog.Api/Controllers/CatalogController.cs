@@ -20,12 +20,29 @@ namespace Catalog.Api.Controllers;
 public class CatalogController(IMediator mediator) : ApiController
 {
     // ============ Products ============
-
+    
     [HttpGet]
-    public async Task<IActionResult> GetAllProducts(CancellationToken cancellationToken)
+    public async Task<IActionResult> GetProducts(
+        [FromQuery] int pageIndex = 1,
+        [FromQuery] int pageSize = 10,
+        [FromQuery] string? search = null,
+        [FromQuery] string? sortBy = null,
+        [FromQuery] SortOrder? sortOrder = null,
+        [FromQuery] string? brandId = null,
+        [FromQuery] string? typeId = null)
     {
-        var result = await mediator.Send(new GetAllProductsQuery(), cancellationToken);
-        return result.ToActionResult();
+        var query = new GetAllProductsQuery(
+            pageIndex,
+            pageSize,
+            search,
+            sortBy,
+            sortOrder ?? SortOrder.Asc,
+            brandId,
+            typeId
+        );
+
+        var result = await mediator.Send(query);
+        return Ok(result);
     }
 
     [HttpGet("{id}")]

@@ -1,0 +1,20 @@
+﻿[
+  {
+    "Id": "507f1f77bcf86cd799439014",
+    "Name": "Electronics",
+    "CreatedAt": "2026-06-19T10:00:00Z",
+    "UpdatedAt": "2026-06-19T10:00:00Z"
+  },
+  {
+    "Id": "507f1f77bcf86cd799439015",
+    "Name": "Accessories",
+    "CreatedAt": "2026-06-19T10:00:00Z",
+    "UpdatedAt": "2026-06-19T10:00:00Z"
+  },
+  {
+    "Id": "507f1f77bcf86cd799439016",
+    "Name": "Gaming",
+    "CreatedAt": "2026-06-19T10:00:00Z",
+    "UpdatedAt": "2026-06-19T10:00:00Z"
+  }
+]

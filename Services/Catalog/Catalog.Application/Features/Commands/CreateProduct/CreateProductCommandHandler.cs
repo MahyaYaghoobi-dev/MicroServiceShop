@@ -25,7 +25,8 @@ public class CreateProductCommandHandler(IProductRepository productRepository,IB
 
         if (result is null)
             return Result<ProductDto>.Failure("Failed to create product.", ResultType.BadRequest);
-        
+        product.Brand = brand;
+        product.Type = type;    
         var productDto=mapper.Map<ProductDto>(result);
         return Result<ProductDto>.Success(productDto);
         

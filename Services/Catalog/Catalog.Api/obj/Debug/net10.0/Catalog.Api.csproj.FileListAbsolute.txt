@@ -66,3 +66,6 @@ C:\Users\mahya\Desktop\microservice_course\MicroServiceShop\Services\Catalog\Cat
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop\Services\Catalog\Catalog.Api\obj\Debug\net10.0\Catalog.Api.pdb
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop\Services\Catalog\Catalog.Api\obj\Debug\net10.0\Catalog.Api.genruntimeconfig.cache
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop\Services\Catalog\Catalog.Api\obj\Debug\net10.0\ref\Catalog.Api.dll
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop\Services\Catalog\Catalog.Api\bin\Debug\net10.0\Data\SeedData\brands.json
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop\Services\Catalog\Catalog.Api\bin\Debug\net10.0\Data\SeedData\products.json
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop\Services\Catalog\Catalog.Api\bin\Debug\net10.0\Data\SeedData\types.json

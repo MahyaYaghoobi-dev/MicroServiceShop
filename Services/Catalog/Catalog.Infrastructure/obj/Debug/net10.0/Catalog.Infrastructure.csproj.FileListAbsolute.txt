@@ -30,3 +30,6 @@ C:\Users\mahya\Desktop\microservice_course\MicroServiceShop\Services\Catalog\Cat
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop\Services\Catalog\Catalog.Infrastructure\obj\Debug\net10.0\refint\Catalog.Infrastructure.dll
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop\Services\Catalog\Catalog.Infrastructure\obj\Debug\net10.0\Catalog.Infrastructure.pdb
 C:\Users\mahya\Desktop\microservice_course\MicroServiceShop\Services\Catalog\Catalog.Infrastructure\obj\Debug\net10.0\ref\Catalog.Infrastructure.dll
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop\Services\Catalog\Catalog.Infrastructure\bin\Debug\net10.0\Data\SeedData\brands.json
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop\Services\Catalog\Catalog.Infrastructure\bin\Debug\net10.0\Data\SeedData\products.json
+C:\Users\mahya\Desktop\microservice_course\MicroServiceShop\Services\Catalog\Catalog.Infrastructure\bin\Debug\net10.0\Data\SeedData\types.json

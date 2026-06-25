@@ -1,0 +1,36 @@
+﻿services:
+  #Catalog.Api
+  catalog.api:
+    image: catalog.api
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: Services/Catalog/Catalog.Api/Dockerfile
+    container_name: catalog-api
+    #8080 : on docker
+    #9000 on local machine
+    ports:
+      - "9000:8080"
+      
+    #Add Database Setting from app setting
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - DatabaseSettings__ConnectionString=mongodb://catalogdb:27017
+      - DatabaseSettings__DatabaseName=CatalogDb
+      - DatabaseSettings__ProductsCollection=Products
+      - DatabaseSettings__BrandsCollection=Brands
+      - DatabaseSettings__TypesCollection=Types
+    depends_on:
+      - catalogdb
+
+  catalogdb:
+    image: mongo
+    container_name: catalogdb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:

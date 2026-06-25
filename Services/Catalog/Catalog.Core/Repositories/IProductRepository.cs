@@ -1,10 +1,12 @@
 ﻿using Catalog.Core.Entities;
+using Catalog.Core.Specifications;
 
 namespace Catalog.Core.Repositories;
 
 public interface IProductRepository
 {
-    Task<IEnumerable<Entities.Product>> GetAllProductsAsync(CancellationToken cancellationToken);
+    Task<IEnumerable<Entities.Product>> GetAllProductsAsync(ProductSpecParams specParams,CancellationToken cancellationToken);
+    Task<long> GetProductsCountAsync(ProductSpecParams specParams, CancellationToken cancellationToken = default);
     Task<Product?> GetProductByIdAsync(string productId, CancellationToken cancellationToken);
     Task<IEnumerable<Product>> GetProductsByNameAsync(string productName, CancellationToken cancellationToken);
     Task<IEnumerable<Product>> GetProductsByBrandIdAsync(string brandId,CancellationToken cancellationToken);
