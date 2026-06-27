@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "bawSEtQ1bkI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Basket\\Basket.Infrastructure\\Basket.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mahya\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.9\\microsoft.extensions.caching.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\microsoft.extensions.caching.stackexchangeredis\\10.0.9\\microsoft.extensions.caching.stackexchangeredis.10.0.9.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.9\\microsoft.extensions.dependencyinjection.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.9\\microsoft.extensions.logging.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\microsoft.extensions.options\\10.0.9\\microsoft.extensions.options.10.0.9.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.9\\microsoft.extensions.primitives.10.0.9.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\respite\\3.0.7\\respite.3.0.7.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\stackexchange.redis\\3.0.7\\stackexchange.redis.3.0.7.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\system.io.hashing\\10.0.5\\system.io.hashing.10.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
