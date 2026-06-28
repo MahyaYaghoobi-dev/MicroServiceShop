@@ -1,4 +1,4 @@
-﻿namespace Catalog.Application.Shared.Results;
+﻿namespace Basket.Application.Shared.Results;
 
 
     public enum ResultType
