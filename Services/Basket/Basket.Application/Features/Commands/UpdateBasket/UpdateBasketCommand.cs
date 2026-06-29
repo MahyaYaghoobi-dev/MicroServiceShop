@@ -6,8 +6,10 @@ namespace Basket.Application.Features.Commands.UpdateBasket;
 
 public class UpdateBasketCommand(
     string userName,
-    List<ShoppingCartItemDto> items) : IRequest<Result<ShoppingCartDto?>>
+    List<ShoppingCartItemDto> items,
+    DateTime lastUpdated) : IRequest<Result<ShoppingCartDto?>>
 {
     public string UserName { get; set; } = userName;
     public List<ShoppingCartItemDto> Items { get; set; } = items;
+    public DateTime LastUpdated { get; set; } = lastUpdated;
 }

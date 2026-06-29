@@ -1,4 +1,5 @@
 ﻿services:
+  # ============ Catalog ============
   #Catalog.Api
   catalog.api:
     image: catalog.api
@@ -7,12 +8,8 @@
       context: .
       dockerfile: Services/Catalog/Catalog.Api/Dockerfile
     container_name: catalog-api
-    #8080 : on docker
-    #9000 on local machine
     ports:
       - "9000:8080"
-      
-    #Add Database Setting from app setting
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ASPNETCORE_URLS=http://+:8080
@@ -24,6 +21,7 @@
     depends_on:
       - catalogdb
 
+ #CatalogDb-MongoDb
   catalogdb:
     image: mongo
     container_name: catalogdb
@@ -32,5 +30,34 @@
     volumes:
       - mongo_data:/data/db
 
+  # ============ Basket ============
+  
+  #Redis_-BasketDb
+  redis:
+    image: redis
+    container_name: basketdb
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+ #Basket.Api
+  basket.api:
+    image: basket.api
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: Services/Basket/Basket.Api/Dockerfile
+    container_name: basket-api
+    ports:
+      - "9001:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:8080
+      - RedisSettings__ConnectionString=redis:6379
+    depends_on:
+      - redis
+
 volumes:
   mongo_data:
+  redis_data:

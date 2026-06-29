@@ -1,7 +1,7 @@
 using Asp.Versioning;
 using Basket.Application.Features.Queries.GetBasketByUserName;
 using Basket.Application.Mappings;
-using Basket.Core.Repositories;
+using Basket.Core;
 using Basket.Core.Settings;
 using Basket.Infrastructure.Services;
 using Mapster;

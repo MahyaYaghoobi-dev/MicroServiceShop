@@ -1,7 +1,7 @@
 ﻿using Basket.Application.DTOs;
 using Basket.Application.Shared.Results;
 using Basket.Core.Entities;
-using Basket.Core.Repositories;
+using Basket.Core;
 using MapsterMapper;
 using MediatR;
 
@@ -15,8 +15,13 @@ public class UpdateBasketCommandHandler(
     public async Task<Result<ShoppingCartDto?>> Handle(UpdateBasketCommand request, CancellationToken cancellationToken)
     {
         var items = mapper.Map<List<ShoppingCartItem>>(request.Items);
-        var entity = new ShoppingCart(request.UserName) { Items = items };
-        var result = await basketRepository.UpdateBasketAsync(entity, cancellationToken);
+        var entity = new ShoppingCart(request.UserName)
+        {
+            Items = items,
+            LastUpdated = request.LastUpdated
+        };
+
+        var result = await basketRepository.UpdateBasketAsync(entity, request.LastUpdated, cancellationToken);
 
         if (result is null)
             return Result<ShoppingCartDto>.Failure("Failed to update basket.", ResultType.BadRequest);

@@ -1,6 +1,6 @@
 ﻿using Basket.Application.DTOs;
 using Basket.Application.Shared.Results;
-using Basket.Core.Repositories;
+using Basket.Core;
 using MapsterMapper;
 using MediatR;
 
