@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "cimEN7YjJ/U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mahya\\Desktop\\microservice_course\\MicroServiceShop\\Services\\Discount\\Discount.Infrastructure\\Discount.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mahya\\.nuget\\packages\\dapper\\2.1.79\\dapper.2.1.79.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.9\\microsoft.extensions.dependencyinjection.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\microsoft.extensions.options\\10.0.9\\microsoft.extensions.options.10.0.9.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.9\\microsoft.extensions.primitives.10.0.9.nupkg.sha512",
+    "C:\\Users\\mahya\\.nuget\\packages\\npgsql\\10.0.3\\npgsql.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

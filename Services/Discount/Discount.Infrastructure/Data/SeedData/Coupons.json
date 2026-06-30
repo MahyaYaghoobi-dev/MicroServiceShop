@@ -1,0 +1,20 @@
+﻿[
+  {
+    "ProductId": "507f1f77bcf86cd799439017",
+    "ProductName": "iPhone 15 Pro",
+    "Description": "10% discount on iPhone 15 Pro",
+    "Amount": null,
+    "Percentage": 10,
+    "IsActive": true,
+    "ExpiresAt": "2026-12-31T23:59:59Z"
+  },
+  {
+    "ProductId": "507f1f77bcf86cd799439018",
+    "ProductName": "Galaxy S24 Ultra",
+    "Description": "Fixed $50 discount on Galaxy S24 Ultra",
+    "Amount": 50,
+    "Percentage": null,
+    "IsActive": true,
+    "ExpiresAt": "2026-12-31T23:59:59Z"
+  }
+]

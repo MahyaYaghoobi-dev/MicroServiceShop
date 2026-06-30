@@ -7,9 +7,6 @@
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\Catalog.Core\Catalog.Core.csproj" />
-    </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="MongoDB.Driver" Version="3.9.0" />
@@ -33,6 +30,10 @@
       <None Update="Data\SeedData\types.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Catalog.Application\Catalog.Application.csproj" />
     </ItemGroup>
 
 </Project>

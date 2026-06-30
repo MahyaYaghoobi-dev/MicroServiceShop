@@ -14,12 +14,7 @@ public class UpdateBasketCommandHandler(
 {
     public async Task<Result<ShoppingCartDto?>> Handle(UpdateBasketCommand request, CancellationToken cancellationToken)
     {
-        var items = mapper.Map<List<ShoppingCartItem>>(request.Items);
-        var entity = new ShoppingCart(request.UserName)
-        {
-            Items = items,
-            LastUpdated = request.LastUpdated
-        };
+        var entity = mapper.Map<ShoppingCart>(request);
 
         var result = await basketRepository.UpdateBasketAsync(entity, request.LastUpdated, cancellationToken);
 
